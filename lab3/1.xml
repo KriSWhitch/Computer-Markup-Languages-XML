@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="try.xslt"?>
+<GROUP>
+<STUDENT>
+<LASTNAME>Пушков</LASTNAME>
+<NAME>Валентин</NAME>
+<SECONDNAME>Сергеевич</SECONDNAME>
+<MARK>6</MARK>
+<BIRTH>1996</BIRTH>
+</STUDENT>
+<STUDENT>
+<LASTNAME>Муковозчик</LASTNAME>
+<NAME>Алексей</NAME>
+<SECONDNAME>Витальевич</SECONDNAME>
+<MARK>8</MARK>
+<BIRTH>2001</BIRTH>
+</STUDENT>
+<STUDENT>
+<LASTNAME>Савицкий</LASTNAME>
+<NAME>Сергей</NAME>
+<SECONDNAME>Сергеевич</SECONDNAME>
+<MARK>4</MARK>
+<BIRTH>2001</BIRTH>
+</STUDENT>
+<STUDENT>
+<LASTNAME>Авдей</LASTNAME>
+<NAME>Александр</NAME>
+<SECONDNAME>Павлович</SECONDNAME>
+<MARK>7</MARK>
+<BIRTH>2002</BIRTH>
+</STUDENT>
+</GROUP>

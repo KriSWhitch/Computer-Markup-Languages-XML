@@ -1,0 +1,24 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="4.xslt"?>
+<FACULTY>
+	<SPECIALIZATION>
+			<NAME>Муковозчик Алексей</NAME>
+			<EXAM>8,3</EXAM>
+			<PAGES>2000</PAGES>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+			<NAME>Пушков Валентин</NAME>
+			<EXAM>4</EXAM>
+			<PAGES>1999</PAGES>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+			<NAME>Савицкий Сервей</NAME>
+			<EXAM>7</EXAM>
+			<PAGES>2000</PAGES>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+			<NAME>Авдей Александр</NAME>
+			<EXAM>6</EXAM>
+			<PAGES>1998</PAGES>
+	</SPECIALIZATION>
+</FACULTY>

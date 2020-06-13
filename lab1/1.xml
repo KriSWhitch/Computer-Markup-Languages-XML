@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<FACULTY>
+<SPECIALIZATION>
+<NAME>ПОИБМС</NAME>
+<TIME>4 года</TIME>
+<EXAM>Математика, Физика, Русский/Белорусский язык</EXAM>
+<PAGES>60 человек</PAGES>
+<PASSING>240 баллов</PASSING>
+<UNIVERSITY>Белорусский государственный технологический университет</UNIVERSITY>
+</SPECIALIZATION>
+<SPECIALIZATION>
+<NAME>ИСИТ</NAME>
+<TIME>4 года</TIME>
+<EXAM>Математика, Физика, Русский/Белорусский язык</EXAM>
+<PAGES>60 человек</PAGES>
+<PASSING>218 баллов</PASSING>
+<UNIVERSITY>Барановичский государственный университет</UNIVERSITY>
+</SPECIALIZATION>
+<SPECIALIZATION>
+<NAME>ИСИТ</NAME>
+<TIME>4 года</TIME>
+<EXAM>Математика, Физика, Русский/Белорусский язык</EXAM>
+<PAGES>60 человек</PAGES>
+<PASSING>277 баллов</PASSING>
+<UNIVERSITY>Белорусский государственный университет информатики и радиоэлектроники</UNIVERSITY>
+</SPECIALIZATION>
+<SPECIALIZATION>
+<NAME>ПОИТ</NAME>
+<TIME>4 года</TIME>
+<EXAM>Математика, Физика, Русский/Белорусский язык</EXAM>
+<PAGES>60 человек</PAGES>
+<PASSING>273 балла</PASSING>
+<UNIVERSITY>Белорусский национальный технический университет</UNIVERSITY>
+</SPECIALIZATION>
+</FACULTY>

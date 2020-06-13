@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="jquery.js"></script>
+    <meta charset="utf-8">
+    <title> XML </title>
+    <style>
+        #inf {
+            width: 300px;
+            height: auto;
+            background-color: rgb(21, 85, 206);
+            color: AZURE;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-left:28%;text-align:center;width:40%;border:3px #121422 solid">
+        <input type="radio" name="one" value="1" checked="checked">ПОИТ 1 КУРС
+        <input type="radio" name="one" value="2">ДЭиВИ 1 КУРС
+        <input type="radio" name="one" value="3">ПОИМБС 1 КУРС
+        <br>
+    </div>
+    <input style="margin-left:28%;text-align:center;width:40.4%;background-color:#243196;color:azure" type="button" id="button" value="Show info">
+    <div style="margin-left:38%;text-align:center;width:20%">
+        <p> Students list: </p>
+        <div id="inf"></div>
+    </div>
+
+    <script>
+        button.onclick = function() {
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            let chckd = $("input:radio:checked").val();
+            switch (chckd) {
+                case "1":
+                    xmlhttp.open("GET", "xml5.xml", false);
+                    xmlhttp.send();
+                    xmlDoc = xmlhttp.responseXML;
+                    document.getElementById("inf").innerHTML = xmlDoc.getElementsByTagName("spec")[0].childNodes[0].nodeValue;
+                    xmlfileSt = xmlDoc.getElementsByTagName("student");
+                    temp = xmlfileSt[2].childNodes[0].nodeValue;
+                    document.getElementById("inf").innerHTML += "<div>" + temp + "</div>";
+
+                    break;
+                case "2":
+                    xmlhttp.open("GET", "xml5_2.xml", false);
+                    xmlhttp.send();
+                    xmlDoc = xmlhttp.responseXML;
+                    document.getElementById("inf").innerHTML = xmlDoc.getElementsByTagName("spec")[0].childNodes[0].nodeValue;
+                    xmlfileSt = xmlDoc.getElementsByTagName("student");
+                    temp = xmlfileSt[3].childNodes[0].nodeValue;
+                    document.getElementById("inf").innerHTML += "<div>" + temp + "</div>";
+                    
+                    break;
+                case "3":
+                    xmlhttp.open("GET", "xml5_3.xml", false);
+                    xmlhttp.send();
+                    xmlDoc = xmlhttp.responseXML;
+                    document.getElementById("inf").innerHTML = xmlDoc.getElementsByTagName("spec")[0].childNodes[0].nodeValue;
+                    xmlfileSt = xmlDoc.getElementsByTagName("student");
+                    for (let i = 0; i < xmlfileSt.length; i++) {
+                        temp = xmlfileSt[i].childNodes[0].nodeValue;
+                        document.getElementById("inf").innerHTML += "<div>" + temp + "</div>";
+                    }
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>

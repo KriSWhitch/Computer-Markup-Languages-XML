@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="88.9mm" height="50.8mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8890 5080"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil1 {fill:pink}
+    .fil0 {fill:#009846}
+   ]]>
+  </style>
+ </defs>
+ <g >
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+</g>
+  <polygon class="fil0 str0" points="2643.34,848.55 3109.75,1073.16 3576.16,1297.77 3691.36,1802.47 3806.55,2307.17 3483.78,2711.9 3161.02,3116.64 2643.34,3116.64 2125.66,3116.64 1802.9,2711.9 1480.13,2307.17 1595.32,1802.47 1710.52,1297.77 2176.93,1073.16 "/>
+  <ellipse class="fil1 str0" cx="3477.55" cy="2488.37" rx="894.42" ry="784.77"/>
+ 
+</svg>
